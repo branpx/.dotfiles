@@ -1,34 +1,30 @@
-urxvt.font:             xft:Dejavu Sans Mono:size=10:autohint=true:antialias=true
-urxvt.background:       black
-urxvt.foreground:       white
-urxvt.scrollBar:        false
-urxvt.scrollBar_right:  true
-urxvt.thickness:        8
-urxvt.scrollColor:      #6C6C6C
-urxvt.troughColor:      #1C1C1C
-urxvt.fading:           20
-urxvt.fadeColor:        black
-urxvt.shading:          50
-urxvt.transparent:      true
-urxvt.cursorBlink:      true
-urxvt.urgentOnBell:     true
-urxvt.visualBell:       true
-urxvt.buffered:         true
-urxvt.tripleclickwords: true
-urxvt.lineSpace:        1
-urxvt.saveLines:        10000
+URxvt.font:             xft:Dejavu Sans Mono:size=10:autohint=true:antialias=true
+URxvt.background:       black
+URxvt.foreground:       white
+URxvt.scrollBar:        false
+URxvt.scrollBar_right:  true
+URxvt.thickness:        8
+URxvt.scrollColor:      #6C6C6C
+URxvt.troughColor:      #1C1C1C
+URxvt.fading:           20
+URxvt.fadeColor:        black
+URxvt.shading:          50
+URxvt.transparent:      true
+URxvt.cursorBlink:      true
+URxvt.urgentOnBell:     true
+URxvt.visualBell:       true
+URxvt.buffered:         true
+URxvt.tripleclickwords: true
+URxvt.lineSpace:        1
+URxvt.saveLines:        10000
 
 URvxt.perl-ext:
 URxvt.perl-ext-common:
 
 
 ! Solarized color scheme for the X Window System
-!
-! http://ethanschoonover.com/solarized
-
 
 ! Common
-
 #define S_yellow        #b58900
 #define S_orange        #cb4b16
 #define S_red           #dc322f
@@ -38,9 +34,7 @@ URxvt.perl-ext-common:
 #define S_cyan          #2aa198
 #define S_green         #859900
 
-
 ! Dark
-
 #define S_base03        #002b36
 #define S_base02        #073642
 #define S_base01        #586e75
@@ -50,9 +44,7 @@ URxvt.perl-ext-common:
 #define S_base2         #eee8d5
 #define S_base3         #fdf6e3
 
-
 ! Light
-
 ! #define S_base03        #fdf6e3
 ! #define S_base02        #eee8d5
 ! #define S_base01        #93a1a1
@@ -61,12 +53,6 @@ URxvt.perl-ext-common:
 ! #define S_base1         #586e75
 ! #define S_base2         #073642
 ! #define S_base3         #002b36
-
-
-! To only apply colors to your terminal, for example, prefix
-! the color assignment statement with its name. Example:
-!
-! URxvt*background:            S_base03
 
 URxvt.intensityStyles:         false
 URxvt*background:              S_base03
