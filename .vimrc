@@ -35,7 +35,7 @@ set updatetime=250
 let &t_SI = "\<Esc>[5 q"
 let &t_SR = "\<Esc>[3 q"
 let &t_EI = "\<Esc>[1 q"
-autocmd GUIEnter * silent !echo -ne "\e[1 q"
+autocmd TermResponse * silent !echo -ne "\e[1 q"
 autocmd ShellCmdPost * silent !echo -ne "\e[1 q"
 
 " Key Mapping
