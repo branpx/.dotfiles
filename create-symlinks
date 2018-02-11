@@ -1,12 +1,19 @@
-#!/bin/bash
+#!/bin/sh
 
 dir=~/.dotfiles
 olddir=~/.dotfiles/.dotfiles.old
-files=".bashrc .inputrc .vimrc .Xresources"
+files=(".bash_profile"
+       ".bashrc"
+       ".gitconfig"
+       ".inputrc"
+       ".vimrc"
+       ".Xresources")
 
 mkdir -p $olddir
 
-for file in $files; do
-    mv ~/$file $olddir
+for file in ${files[*]}; do
+    if [ -f ~/$file ]; then
+        mv ~/$file $olddir
+    fi
     ln -s $dir/$file ~/$file
 done

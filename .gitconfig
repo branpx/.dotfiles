@@ -1,0 +1,7 @@
+[user]
+	name = Brandon Piatt
+	email = branpx@gmail.com
+[core]
+	editor = vim
+[diff]
+	tool = vimdiff
